@@ -2,7 +2,7 @@
 
 import dpath.util
 
-from lightblue.query import LightBlueQuery
+from .query import LightBlueQuery
 
 
 class LightBlueGenericSelection(LightBlueQuery):
