@@ -8,7 +8,7 @@ import logging
 
 from beanbag.v2 import BeanBag, POST, GET, PUT, BeanBagException
 
-from lightblue.common import retry_session
+from .common import retry_session
 
 LOGGER = logging.getLogger('lightblue')
 
